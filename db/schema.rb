@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 3) do
   end
 
   create_table "costumes", force: :cascade do |t|
-    t.string "name"
+    t.text "name"
     t.integer "price"
     t.text "size"
     t.string "image_url"
