@@ -5,7 +5,6 @@ class Costume  < ActiveRecord::Base
       t.integer :price
       t.integer :size
       t.string :image_url
-
     end
   end
 end
